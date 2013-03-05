@@ -1,0 +1,115 @@
+
+.top-header-menu{
+	width: 100%;
+	height: 90px;
+	background-color: #1f4e7c;
+}
+
+.top-header-menu .top-menu-cont{
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+}
+
+.top-header-menu .top-menu-cont .top-logo{
+	height: 50px;
+}
+
+.top-header-menu .top-menu-cont .top-logo .top-logo-link{
+    background: url("http://img03.taobaocdn.com/tps/i3/T1LqffXhRiXXXgnhYn-195-34.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 34px;
+    margin-top: 35px;
+    text-decoration: none;
+    width: 195px;
+    _background-image:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://img03.taobaocdn.com/tps/i3/T1LqffXhRiXXXgnhYn-195-34.png", sizingMethod=scale); 
+
+}
+
+.top-header-menu .top-menu-cont .top-logo .top-logo-link .top-logo-title{
+    font-family: Microsoft YaHei;
+    font-size: 24px;
+    font-weight: normal;
+    height: 50px;
+    line-height: 40px;
+}
+
+.top-header-menu .top-menu-cont .top-logo .top-logo-link .top-logo-url{
+    font-family: Arial;
+    font-size: 12px;
+    height: 14px;
+    letter-spacing: 3px;
+    line-height: 14px;
+    margin-top: 7px;
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu {
+    height: 30px;
+    left: 238px;
+    position: absolute;
+    top: 43px;
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu li {
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    margin-right: 42px;
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu li:hover{
+/*	background-color: #123b62;
+    border-radius: 8px;*/
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu li a{
+    color: #8CB5DD;
+    display: block;
+    height: 25px;
+    line-height: 22px;
+    text-decoration: none;
+    zoom: 1;
+    *display: inline;
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu li:hover a{
+	text-decoration: none;
+    color: #fff;
+    line-height: 24px;
+}
+
+.top-header-menu .top-menu-cont .top-nav-menu li.selected a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;}
+
+.clearfix{zoom:1;}
+
+.hidden { display: none;}
+
+/*header*/
+#site-nav {
+    background-color: #1F4E7C;
+    min-width: 950px;
+    width: auto;
+    border: 0;
+}
+/*footer*/
+#footer {
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	border-top: 1px solid #E3E3E3;
+	background-color: #F7F7F7;
+	text-align: center;
+	font-family: Verdana;
+	margin-top: 30px;
+}

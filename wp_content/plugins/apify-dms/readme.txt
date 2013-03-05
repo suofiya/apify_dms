@@ -1,0 +1,1 @@
+1. api更新历史请在后台post菜单中添加，但是注意请保证所有post_title='apiupdatehistory'

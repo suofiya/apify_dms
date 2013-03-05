@@ -1,0 +1,15 @@
+.normal-bg , 
+.security-bg , 
+.special-bg {background:url(./images/api_type_icon.png) no-repeat -25px 3px ; padding-left:35px;}
+.security-bg { background-position: -25px -20px; }
+.special-bg { background-position: -25px -44px; }
+
+.api-list span.l .normal-bg { 
+	background-position: -25px -3px;
+}
+.api-list span.l .security-bg { 
+	background-position: -25px -26px;
+}
+.api-list span.l .special-bg { 
+	background-position: -25px -51px;
+}
