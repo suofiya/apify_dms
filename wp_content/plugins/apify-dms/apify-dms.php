@@ -29,7 +29,7 @@ define( 'APIFY_DMS_API_TOOL_URL', 'http://sandbox-api.lightinthebox.com/api/tool
 /**
  * 数据表定义
  */
-//define( 'TABLE_POST', $wpdb->prefix . 'posts' );
+define( 'TABLE_POST', $wpdb->prefix . 'posts' );
 define( 'APIFY_DATABASE_PREFIX', $wpdb->prefix . 'vela_' );
 define( 'TABLE_APIFY_API_GROUP', APIFY_DATABASE_PREFIX . 'api_group' );
 define( 'TABLE_APIFY_API_ITEM', APIFY_DATABASE_PREFIX . 'api_item' );
