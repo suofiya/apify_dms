@@ -46,13 +46,13 @@ define( 'TABLE_APIFY_API_APP_ADMIN', APIFY_DATABASE_PREFIX . 'api_app_admin' );
 /**
  * 前端页面main_page定义
  */
-define( 'APIFY_MAIN_PAGE_API_UPDATE_HISTORY_LIST', '/api-update-history-list' );
-define( 'APIFY_MAIN_PAGE_API_GROUP_LIST', '/api-group-list' );
-define( 'APIFY_MAIN_PAGE_API_ITEM_LIST', '/api-item-list' );
-define( 'APIFY_MAIN_PAGE_API_ITEM', '/api-item' );
-define( 'APIFY_MAIN_PAGE_API_DATA_MODEL', '/api-data-model' );
-define( 'APIFY_MAIN_PAGE_API_DATA_TYPE_LIST', '/api-data-type-list' );
-define( 'APIFY_MAIN_PAGE_API_ERRORCODE_LIST', '/api-errorcode-list' );
+define( 'APIFY_MAIN_PAGE_API_UPDATE_HISTORY_LIST', 'api-update-history-list' );
+define( 'APIFY_MAIN_PAGE_API_GROUP_LIST', 'api-group-list' );
+define( 'APIFY_MAIN_PAGE_API_ITEM_LIST', 'api-item-list' );
+define( 'APIFY_MAIN_PAGE_API_ITEM', 'api-item' );
+define( 'APIFY_MAIN_PAGE_API_DATA_MODEL', 'api-data-model' );
+define( 'APIFY_MAIN_PAGE_API_DATA_TYPE_LIST', 'api-data-type-list' );
+define( 'APIFY_MAIN_PAGE_API_ERRORCODE_LIST', 'api-errorcode-list' );
 
 
 /**
