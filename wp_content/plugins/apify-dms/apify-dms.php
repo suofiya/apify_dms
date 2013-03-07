@@ -53,7 +53,7 @@ define( 'APIFY_MAIN_PAGE_API_ITEM', 'api-item' );
 define( 'APIFY_MAIN_PAGE_API_DATA_MODEL', 'api-data-model' );
 define( 'APIFY_MAIN_PAGE_API_DATA_TYPE_LIST', 'api-data-type-list' );
 define( 'APIFY_MAIN_PAGE_API_ERRORCODE_LIST', 'api-errorcode-list' );
-
+define( 'APIFY_MAIN_PAGE_API_DOC_INDEX', 'api-doc-index' );
 
 /**
  * 前端页面定义(shortcode机制)
@@ -66,6 +66,7 @@ $frontend_pages = array(
 			'api-data-model'=>array('title'=>'API数据对象', 'shortcode_tag'=>'displayApiDataModel', 'content'=>'[displaySideNavigator onlyshowglobalnavigator="true"][displayApiDataModel]'),
 			'api-data-type-list'=>array('title'=>'API数据类型列表', 'shortcode_tag'=>'displayApiDataTypeList', 'content'=>'[displaySideNavigator onlyshowglobalnavigator="true"][displayApiDataTypeList]'),
 			'api-errorcode-list'=>array('title'=>'API错误码列表', 'shortcode_tag'=>'displayApiErrorCodeList', 'content'=>'[displaySideNavigator onlyshowglobalnavigator="true"][displayApiErrorCodeList]'),
+			'api-doc-index'=>array('title'=>'API文档首页', 'shortcode_tag'=>'displayApiDocIndex', 'content'=>'[displaySideNavigator onlyshowglobalnavigator="true"][displayApiDocIndex]'),
 );
 $extra_widgets = array(
 			array('shortcode_tag'=>'displaySideNavigator', 'content'=>'[displaySideNavigator]'),
@@ -385,7 +386,13 @@ function displayApiErrorCodeListHandler() {
 	ob_end_clean();
 	return $output;
 }
-
+function displayApiDocIndexHandler() {
+	ob_start();
+	include( 'includes/pages/frontend/display_api_doc_index.php' );
+	$output = ob_get_contents();
+	ob_end_clean();
+	return $output;
+}
 
 /**
  * Return path to plugin directory (url/path)
