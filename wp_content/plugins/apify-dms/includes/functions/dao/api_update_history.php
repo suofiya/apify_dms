@@ -30,7 +30,7 @@ function apify_get_all_api_update_history_list_by_filters( $filters=array(), $pa
 						$filter = "ID='$v'";
 						break;
 					case 'post_title':
-						$filter = 'post_title like "'.$v.'"';
+						$filter = 'post_title like "'.$v.'%"';
 						break;
 					case 'result_data_type_id':
 						$filter = "result_data_type_id='$v'";
