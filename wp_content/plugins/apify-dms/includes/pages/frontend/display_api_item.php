@@ -114,7 +114,7 @@ if( !empty($ids) ) {
 						<?php echo $_authorized_title[$lang_code]; ?>
 					</h2>
 					<div id="content-authorize" style="">
-						<p class="introduction"><?php echo ($currentApiItemObj->item_type == 2) ? 'Security' : 'Normal'; ?></p>
+						<p class="introduction"><?php echo ($currentApiItemObj->item_type == 2) ? 'Security (need provide sessionkey)' : 'Normal'; ?></p>
 					</div>	
 				</div>
 					
